@@ -22,6 +22,8 @@ const isAdmin = true;
 const GiftList = () => {
   const [gifts, setGifts] = useState<Gift[]>([]);
 
+  console.log("API_BASE_URL:", import.meta.env.VITE_API_BASE_URL);
+
   // ======================
   // FETCH REGALOS
 
